@@ -6,7 +6,7 @@ import Loading from '../../Components/Loading/Loading';
 
 
 const Apply = () => {
-  const [jobs, setjobs] = useState([]);
+ 
   const [loading, setLoading] = useState(true);
   const {user}=useContext(authContext)
   const token = localStorage.getItem('web-token');
