@@ -8,7 +8,7 @@ import { authContext } from '../../Provider/Provider';
 
 
 const UpdateJob = () => {
-    
+    const { user } = useContext(authContext);
     const data = useLoaderData();
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
 
