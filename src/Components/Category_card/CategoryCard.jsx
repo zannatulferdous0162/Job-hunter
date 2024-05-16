@@ -4,7 +4,7 @@ import 'react-tabs/style/react-tabs.css';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import Loading from '../Loading/Loading';
-const CategoryCar = () => {
+const CategoryCard = () => {
     const [jobs,setJobs]=useState([])
     const [loading,setLoading]=useState(true)
   
