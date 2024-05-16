@@ -6,7 +6,7 @@ const LightDark = () => {
     const Dark=()=>{
         localStorage.setItem('dark','dark')
         console.log("dark")
-        setTemplete(true)
+       
        
     }
     const Light=()=>{
