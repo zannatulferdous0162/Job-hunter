@@ -1,5 +1,13 @@
 # React + Vite
 
+
+Assignment_ID: assignment_category_0003
+react-tabs
+swiperjs
+
+website live link : 
+https://job-hunter-department.netlify.app/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
